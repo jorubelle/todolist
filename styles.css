@@ -1,0 +1,64 @@
+body {
+  margin: 200;
+  
+  font-family: 'Pacifico', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Times New Roman', Times, serif
+}
+.material-symbols-outlined {
+  color: rgb(118, 178, 231);
+}
+h1 {
+  color: antiquewhite;
+  text-align: center;
+  background: rgb(2,0,36);
+  padding: 20px;
+
+
+
+}
+
+.app {
+  
+  background-image: url(bronze_400.jpeg);
+
+
+  padding-left: 200px;
+  padding-top: 100px;
+  height: 100vh;
+  
+}
+
+.todo-list{
+  background: #176498;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 400px;
+}
+
+.todo{
+  background: #fff;
+  box-shadow: 1px 1px 1px rgba(0,0,0, 0.15);
+  padding: 3px 10px;
+  font-size: 24px;
+  margin-bottom: 6px;
+  border-radius: 3px;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input{
+  width: 100%;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: none;
+  padding: 1rem;
+  height: 2.25em;
+  font-size: 24px;
+}
