@@ -1,47 +1,29 @@
 body {
-  margin: 200;
-  
-  font-family: 'Pacifico', cursive;
+  margin: 150;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: 'Times New Roman', Times, serif
-}
-.material-symbols-outlined {
-  color: rgb(118, 178, 231);
-}
-h1 {
-  color: antiquewhite;
-  text-align: center;
-  background: rgb(2,0,36);
-  padding: 20px;
-
-
-
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .app {
-  
-  background-image: url(bronze_400.jpeg);
-
-
-  padding-left: 200px;
-  padding-top: 100px;
+  background: #e7e563;
+  padding: 40px;
   height: 100vh;
-  
 }
 
 .todo-list{
-  background: #176498;
-  border-radius: 4px;
+  background: #d44444;
+  border-radius: 5px;
   padding: 5px;
   max-width: 400px;
 }
 
 .todo{
-  background: #fff;
+  background: rgba(71, 4, 64, 0.66);
   box-shadow: 1px 1px 1px rgba(0,0,0, 0.15);
   padding: 3px 10px;
   font-size: 24px;
